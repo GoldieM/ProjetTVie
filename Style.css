@@ -1,0 +1,132 @@
+
+.Logo1 {
+	
+	    display: block;
+  
+    width: 20%;
+    margin-left: 35%;
+}
+
+.desc{
+	font-size: 16px;
+	font-family: Verdana; 
+	margin-right: 20%;
+	margin-left: 21%;
+	margin-bottom: 3%;
+}
+
+.header {
+	font-size: 14px;
+	display: block;
+	left: 33%;
+	top: 28%;
+}
+
+/* Je sélectionne les <li> du menu horizontal */
+.menuitem { 
+	display : inline;
+	padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+}
+
+ul#menu_horizontal {
+	list-style-type : none; /* Car sinon les puces se placent n'importe où */
+	margin-right: 30%;
+	margin-left: 27%;
+    margin-bottom: 2%
+}
+
+
+.nav 
+{
+	display: block;
+	left: 30%;
+	top: 33%;
+}
+
+/* Grille image */
+
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+}
+
+					ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -0.5%; /* should match li left margin */
+}
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 0.5% 0.5%;
+	margin-right: 20%;
+	margin-left	: 20%;
+	background: #fff;
+	border: 0px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 49.5%; /* this value + 0.5 should = 50% */
+}
+ 
+
+
+
+		.p1{
+
+				width: 100%;
+   				display: block;
+				top: 68%;
+				right: 49%;
+			}
+		.p2{
+
+			width: 100%;
+		    display: block;
+			top: 68%;
+			left: 52%;
+			}
+
+			.p3{
+
+			width: 100%;
+		    display: block;
+			top: 68%;
+			left: 52%;
+			}
+
+			.p4{
+
+			width: 100%;
+		    display: block;
+			top: 68%;
+			left: 52%;
+			}
+
+
+
+
+.footer{
+
+	
+}

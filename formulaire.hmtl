@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Trendy Vintie Contact </title>
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" href="Style.css"/> 
+		<link rel="stylesheet" href="bosstrap/css/bosstrap.css.min"/> 
+		</head>
+
+<img src="IMAGES/TVLOGO.JPG" class="Logo1"  title="Trendy Vintie" alt="Trendy Vintie" />
+<header class="header">
+Ventes de vêtements vintage et tendance. La mode est un cycle profitons-en ! 
+</header>
+
+<nav class="nav">
+	<ul id="menu_horizontal">
+		<li class="menuitem"><a class="TV" href="TrendyVintie.php">Trendy Vintie</a></li>
+		<li class="menuitem"><a href="Classical.php">Classical</a></li>
+		<li class="menuitem"><a href="Street.php">Street</a></li>
+		<li class="menuitem"><a href="Vintage.php">Vintage</a></li>
+		<li class="menuitem"><a href="COMMANDER.php">Commander</a></li>
+	</ul>
+</nav>
+
+
+<form action="/ma-page-de-traitement" method="post">
+	<div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" value="Saisissez votre nom"/>
+    </div>
+
+    <div>
+        <label for="Prenom">Prenom :</label>
+        <input type="email" id="courriel" value="Saisissez votre adresse Prenom" />
+    </div>
+
+
+    <div>
+        <label for="courriel">Courriel :</label>
+        <input type="email" id="courriel" value="Saisissez votre adresse mail" />
+    </div>
+
+    <div>
+        <label for="message">Message :</label>
+        <textarea id="message" value="Saisissez votre message de commande"></textarea>
+        
+   <div class="button">
+        <button type="submit">Envoyer votre message</button>
+    </div>
+
+</form>
