@@ -9,9 +9,10 @@
 		
 		</head>
 
+<a href="index.html">
 <img src="IMAGES/TVLOGO.JPG" class="Logo1"  title="Trendy Vintie" alt="Trendy Vintie" />
-<header class="header">
-Ventes de vêtements vintage et tendance. La mode est un cycle profitons-en ! 
+<header class="header"></a>
+
 </header>
 
 <nav class="nav">
@@ -23,7 +24,7 @@ Ventes de vêtements vintage et tendance. La mode est un cycle profitons-en !
 		<li class="menuitem"><a href="formulaire.html">Commander</a></li>
 	</ul>
 </nav>
-
+<h3> Veuillez préciser le nom de l'article commandé</h3>
   <form name="Commande" method="post" action="formulaire.php">
 
 	<div>
@@ -46,17 +47,20 @@ Ventes de vêtements vintage et tendance. La mode est un cycle profitons-en !
         <label for="message">Message :</label>
         <textarea id="message" value="Saisissez votre message de commande"></textarea>
 
-   <div class="button">
-        <button class="btn btn-primary btn-lg" name="valider" type="submit">Envoyer ma commande</button>
+   <div class="button"> <input type="submit" name="valider" value="Envoyer la commande"/>
+        
     </div>
 
 </form>
+
+    
 <?php
-        if(isset($_POST['valider'])){
+        if(isset($_POST['valider'])){ /* si user a cliqué sur valider*/
+            $name=$_POST['Prenom'];
            
-            echo 'Votre commande à bien été reçue ! A bientôt sur Trendy Vintie' ;
+            echo 'Merci'. $name.'Votre commande à bien été reçue ! A bientôt sur Trendy Vintie' ;
         }
-        ?>
+?>  
 
 <footer class"footer"> 
 
